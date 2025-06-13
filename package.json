@@ -1,5 +1,14 @@
 {
     "name": "idea",
     "privare": true,
-    "version": "0.0.0"
+    "version": "0.0.0",
+    "scripts": {
+        "b": "pnpm --filter @idea/backend",
+        "w": "pnpm --filter @idea/webapp",
+        "dev": "pnpm -r --parallel dev",
+        "types": "pnpm b types && pnpm w types"
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
 }
