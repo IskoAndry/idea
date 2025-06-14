@@ -12,12 +12,13 @@
     "prettify": "prettier --loglevel warn --cache --write '{src/**/*,*}.{ts,tsx,js,json,yml,scss}' '!**/{node_modules,dist}/**/*'"
   },
   "dependencies": {
-    "@idea/backend":"workspace:*",    
+    "@idea/backend": "workspace:*",
     "@tanstack/react-query": "^5.80.6",
     "@trpc/client": "^11.3.1",
     "@trpc/react-query": "^11.3.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
@@ -26,7 +27,7 @@
     "@vitejs/plugin-react": "^4.4.1",
     "globals": "^16.0.0",
     "prettier": "^3.5.3",
-    "typescript": "~5.8.3",    
+    "typescript": "~5.8.3",
     "vite": "^6.3.5"
   }
 }
