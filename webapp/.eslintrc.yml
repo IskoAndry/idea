@@ -19,9 +19,9 @@ rules:
     - error
     - patterns:
         - group:
-            - '@ideanick/backend/**'
-            - '!@ideanick/backend/**/'
-            - '!@ideanick/backend/**/input'
-            - '!@ideanick/backend/src/utils/can'
+            - '@idea/backend/**'
+            - '!@idea/backend/**/'
+            - '!@idea/backend/**/input'
+            - '!@idea/backend/src/utils/can'
           allowTypeImports: true
           message: 'Only types and input schemas are allowed to be imported from backend workspace'
